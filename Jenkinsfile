@@ -42,7 +42,7 @@ stages {
 
   stage('Deploy') {
     steps {
-      sh 'sudo cp /home/ec2-user/jenkins-slave1/workspace/parallel_pipeline/initial/target/*.war /opt/tomcat/webapps/'
+      sh 'sudo cp /home/ec2-user/jenkins-slave1/workspace/test_for_tomcat/target/*.war /opt/tomcat/webapps/'
     }
   }
 
